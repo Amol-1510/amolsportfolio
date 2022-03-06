@@ -11,6 +11,53 @@
             background-image: linear-gradient(to bottom right,black,grey);
             height: 100%;
         }
+        li a:hover{
+        background-color: rgb(209, 204, 199);
+        border-radius: 50px;
+        color: black;
+        }
+        @media screen and (min-width: 681px) {
+        ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        }
+        li {
+        float: left;
+        }
+        li a {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px 40px;
+        text-decoration: none;
+        font-size: 1.5vw;
+        font-family: cursive;
+        font-weight: bold;
+        }
+    }
+        @media screen and (max-width: 680px) {
+        ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        }
+        li {
+        float: left;
+        }
+        li a {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 10px 20px;
+        text-decoration: none;
+        font-size: 2.0vw;
+        font-family: cursive;
+        font-weight: bold;
+        }
+    }
         @media screen and (max-width: 750px){
         .fa{
             font-size: 3.0vw;
@@ -44,7 +91,7 @@
         .Ci{
             width: fit-content;
             margin: auto;
-            margin-top: 12.5%;
+            margin-top: 9%;
             background-color: beige;
             border-color: gray;
             border-style: solid;
@@ -74,6 +121,16 @@
     </style>
 </head>
 <body>
+    <nav>
+        <ul class="nav">         
+            <li><a href="http://">Home</a></li>
+            <li><a href="http://">About</a></li>
+            <li><a href="http://">Work</a></li>
+            <li><a href="http://">Skill</a></li>
+            <li><a href="Contact_info.html">Contact</a></li>
+            <li><a href="Amol.png">Resume</a></li>
+        </ul>
+    </nav>
     <div class="Ci">
         <h1>
             Contact Information
